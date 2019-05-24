@@ -66,6 +66,6 @@ Bei der Definition der CSS Regeln geht es sehr of darum Boxen zu formatieren (Gr
 > Es gilt in der Datei  zwei kleine Änderungen zwischen den _tags_ `<head>` zu beachten.  
 >  1. `<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css">`. Hier verweisen wir auf eine Internetquelle, die uns die Schriftart _Open Sans_ zur Verfügung stellt.
 > 2. `<link href="styles/style.css" rel="stylesheet" type="text/css">` Hier verweisen wir auf die lokale `.css` Datei, die unsere spezifischen Formatregeln beinhaltet.
-> * Abschließend öffnen Sie bitte die Datei `03-css-uebung.html` mit Ihrem Webbrowser (i.d.R. durch einen Doppelklick) und versuchen Sie die Visuellen Veränderungen den jeweiligen Regeln zuzuordnen.
+> * Abschließend öffnen Sie bitte die Datei `03-css-uebung.html` mit Ihrem Webbrowser (i.d.R. durch einen Doppelklick) und versuchen Sie die visuellen Veränderungen den jeweiligen Regeln zuzuordnen.
  
 ***

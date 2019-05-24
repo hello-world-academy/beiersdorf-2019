@@ -11,13 +11,13 @@ Hier ein Beispiel für ein `p` (_paragraph_) Element:
 `<p>class="abcd">Hello world!</p>`, 
 
 - `<p>` eröffnender _tag_,
-- `class="nice"` ein Attribut und der dazugehörige Wert,
+- `class="abcd"` ein Attribut und der dazugehörige Wert,
 - `'Hello world!'` Text, und
 - `</p>` schließender _tag_
 
 Es gibt auch Elemente die keinen Inhalt haben (_empty elements_):
 
-`<img src="meinpfad/bild.png" alt="Mein Bild">`
+`<img src="meinpfad/bild.png">`
 
 Dieses Element enthält zwei Attribute aber keinen schließenden _tag_ (`</img>`) und auch keinen Inhalt.
 
