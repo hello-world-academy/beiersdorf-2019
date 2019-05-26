@@ -27,4 +27,4 @@ Falls Sie Probleme haben die oben genannten Schritte durchzuführen verweisen wi
 
 > Alternative besteht die Möglichkeit [binder](https://mybinder.org/) zu nutzen, um eine interaktive Arbeitsumgebung zu erstellen. Klicken Sie unten auf _launch binder_.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hello-world-academy/beiersdorf-2019/master?urlpath=lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hello-world-academy/beiersdorf-2019/master?urlpath=lab/)
