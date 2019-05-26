@@ -4,7 +4,7 @@ HTML (Hypertext Markup Language) ist keine Programmiersprache im eigentlichen Si
 
 ## Elemente
 
-Ein Element kann u.a. Text, Daten, Bilder, etc. beinhalten. Typischerweise beginnt ein Element mit einem (eröffnenden) Etikett (_tag_), enthält Attribute, umschließt Text und endet mit einem (schließenden) Etikett.
+Ein Element kann u.a. Text, Daten, Bilder, etc. beinhalten. Typischerweise beginnt ein Element mit einem (eröffnenden) `<...>` (_tag_), enthält Attribute, umschließt Text und endet mit einem (schließenden) `</...>`.
 
 Hier ein Beispiel für ein `p` (_paragraph_) Element: 
 
@@ -12,14 +12,14 @@ Hier ein Beispiel für ein `p` (_paragraph_) Element:
 
 - `<p>` eröffnender _tag_,
 - `class="abcd"` ein Attribut und der dazugehörige Wert,
-- `'Hello world!'` Text, und
+- `'Hello world!'` Text und der
 - `</p>` schließender _tag_
 
 Es gibt auch Elemente die keinen Inhalt haben (_empty elements_):
 
 `<img src="meinpfad/bild.png">`
 
-Dieses Element enthält zwei Attribute aber keinen schließenden _tag_ (`</img>`) und auch keinen Inhalt.
+Dieses Element enthält ein Attribute aber keinen schließenden _tag_ (`</img>`) und auch keinen Inhalt.
 
 ### Texte
 
@@ -36,7 +36,7 @@ Dieses Element enthält zwei Attribute aber keinen schließenden _tag_ (`</img>`
 ```
 
 #### Absätze 
-Das `<p>` Elements kennzeichnet einen Absatz.
+Das `<p>` Element kennzeichnet einen Absatz.
 
 ```
 <p>Ich bin ein Absatz</p>
@@ -44,7 +44,7 @@ Das `<p>` Elements kennzeichnet einen Absatz.
 
 ### Bilder
 
-Das `<img>` Element fügt Bilddateien an der Stelle ein, an der es vorkommt. Das `src` (_source_) Attribut verweist auf den Pfad zur Bilddatei (auf eine lokale Datei oder auch eine url).
+Das `<img>` Element fügt Bilddateien in das Dokument ein. Das `src` (_source_) Attribut verweist auf den Pfad zur Bilddatei (auf eine lokale Datei oder auch eine _url_).
 
 `<img src="images/mein_Bild.png">`
 
@@ -69,14 +69,14 @@ Das `<img>` Element fügt Bilddateien an der Stelle ein, an der es vorkommt. Das
 * `<head></head>` Das `<head>` Element. Diese Element entspricht einem Container, in dem alles Relevante zu finden ist, dass nicht Teil des auf der Webseite angezeigten Inhaltes ist.
 * `<meta charset="utf-8">` Das Element beschreibt die verwendete Zeichenkodierung.
 * `<title></title>`  Das `<title>` Element. Es beschreibt den Titel der Webseite, die vom Browser im Reiter angezeigt wird und auch als Bezeichung der Seite beim Ablegen als Favorit verwendet wird.
-* `<body></body>` Das `<body>` Element. Dieses Element beinhalte alles Inhalte der Webseite die dem Nutzer angezeigt werden (Text, Bilder, Videos, Spiele, etc).
+* `<body></body>` Das `<body>` Element. Dieses Element beinhalt alle Inhalte der Webseite die dem Nutzer angezeigt werden (Text, Bilder, Videos, Spiele, etc).
 
 ***
 ## Übung 1
 
 > __Erstellen Sie ein HTML Dokument mit folgenden Inhalten:__
-> * Titel des Browserreiters `Coding Workshop`
-> * Erstellen Sie eine Dokumentenüberschrift `Grundlagen von Coding für Non-Coder`
+> * Legen Sie den Titel des Browserreiters als `Coding Workshop` fest.
+> * Erstellen Sie eine Dokumentenüberschrift `Grundlagen von Coding für Non-Coder`.
 > * Erstellen Sie einen Paragraphen und dokumentieren Sie das heutige Datum `Datum 29.05.2019` 
 > * Fügen Sie ein Bild hinzu. Dieses finden Sie unter dem Pfad `images/BDF_Logo.png`
 > * Nutzen Sie bitte hierfür die Vorlage `01-html-uebung.html`. Öffnen Sie diese Datei mit einem Texteditor Ihrer Wahl und ergänzen Sie die fehlenden Zeilen. Gleichzeitig können Sie diese Datei mit einem Browser Ihrer Wahl öffnen, um Ihre Fortschritte sehen zu können.  
@@ -89,4 +89,4 @@ Das `<img>` Element fügt Bilddateien an der Stelle ein, an der es vorkommt. Das
 > * Das Element `<ul></ul>` steht fur eine ungeordnete Liste (_unordered list_)
 > * Das Element `<li></li>` steht für einen Listeneintrag (_list_)
 > * Das Element `<a></a>` steht für einen Link (_anchor_)
-> * Öffnen Sie die Datei erst dann mit Ihrem Webbrowser (i.d.R. durch einen Doppelklick), wenn Sie eine Vorstellung über das Aussehen der Webseite haben!
+> * Erst nachdem Sie eine Vorstellung über das Aussehen der Webseite haben, öffnen Sie die Datei mit Ihrem Webbrowser (i.d.R. durch einen Doppelklick).

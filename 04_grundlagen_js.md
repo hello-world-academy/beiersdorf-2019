@@ -12,7 +12,7 @@ Es ist grundsätzlich möglich JS-Code direkt in das HTML Dokument zu schreiben,
 
 ## Übung 6
 
-> __Ändern Sie den Dokumententitel der Datei `04-js-uebung.html` zu `'Hello World Academy'` mit Hilfe von JS Code__
+> __Änderung des Dokumententitels mit Hilfe von JS Code zu `'Hello World Academy'`__
 > * Öffnen Sie das HTML Dokument `04-js-uebung.html` mit einem Texteditor Ihrer Wahl.
 > * Öffnen Sie das HTML Dokument `04-js-uebung.html` mit einem Browser Ihrer Wahl.
 > * Öffnen Sie das JS-Script `/scripts/header_changer.js` mit einem Texteditor Ihrer Wahl.

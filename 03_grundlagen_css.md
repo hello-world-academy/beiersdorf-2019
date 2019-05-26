@@ -8,15 +8,15 @@ p {
 }
 ```
 
-In der Regel erstelle man eine eigene CSS Datei (z.B. `style.css`) und referenziert diese innerhalb der `<head>` _tags_ im HTML Dokument.
+In der Regel erstelle man eine eigene CSS Datei (z.B. `style.css`) und referenziert diese innerhalb des `<head>` _tags_ im HTML Dokument.
 
-`<link href="styles/style.css" rel="stylesheet">`
+`<link href="styles/style.css" rel="stylesheet" type="text/css">`
 
 
 ## Anatomie von CSS 
 
 Die Formatierung durch CSS basiert auf Regeln. Der Name des zu formatierenden HTML Elementes (_Selector_) steht immer am Anfang der Regel (z.B. `p`).
-Eine Regel wie `color: red;` führt dazu das selektierte Element in der Farbe Rot dargestellt wird. Die korrekte Syntax ist herbei sehr. wichtig:
+Eine Regel wie `color: red;` führt dazu das selektierte Element in der Farbe Rot dargestellt wird. Die korrekte Syntax ist herbei sehr wichtig:
 
 * Jede Regel wird durch die geschwungenen Klammern umschlossen `{}`.
 * Der Doppelpunkt `:` trennt die Eigenschaft (z.B. `color`) vom Wert (z.B. `red`).
