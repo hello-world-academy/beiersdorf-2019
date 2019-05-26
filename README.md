@@ -17,9 +17,9 @@ Um die Workshopmaterialien zu nutzen, empfehlen wir Ihnen den [_conda_](https://
 in Ihrer Kommandozeile schreiben. 
 Dannach aktivieren Sie ihre Virtuelle Arbeitsumgebung indem Sie den Befehl 
 
-`source activate dgoev19` (für LINUX and Mac) oder
+`source activate beiersdorf` (für LINUX and Mac) oder
 
-`activate dgoev19` (für WINDOWS)
+`activate beiersdorf` (für WINDOWS)
 
 in Ihrer Kommandozeile schreiben. 
 
