@@ -30,7 +30,7 @@ def get_text(urls):
     for url in urls:
         page = requests.get(url)
         blog = BeautifulSoup(page.content, 'html.parser')
-        print(f'Exracting {url}')
+        print(f'Extracting {url}')
         text_segments = []
         for elem in blog.find_all('div', {"class" : 'rte'}):
             if elem.attrs['class'][0] == 'rte':
