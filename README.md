@@ -11,3 +11,6 @@
 Willkommen auf dem Repository für die Workshopreihe  _Grundlagen von Coding für Non-Coder_. Hier finden Sie begleitendes Lehrmaterial und alle Übungsbeispiele.
 
 
+*** 
+Klicken Sie hier um eine interaktive Arbeitsumgebung zu erstellen:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hello-world-academy/beiersdorf-2019/master)
