@@ -1,2 +1,0 @@
-# Grundlagen Developer Toolkit
-
