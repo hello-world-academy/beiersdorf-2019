@@ -11,5 +11,8 @@ dependencies:
   - requests
   - wordcloud
   - numpy
+  - pandas
+  - seaborn
+  - holoviews
 
 
