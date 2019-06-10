@@ -1,22 +1,22 @@
 
-def kelvin_to_celsius(temperature_K):
+def kelvin_to_celsius(K):
     '''
     Function to compute Celsius from Kelvin
     '''
-    rv = temperature_K - 273.15
-    return rv
+    C = K - 273.15
+    return C
 
-def fahrenheit_to_celsius(temperature_F):
+def fahrenheit_to_celsius(F):
     '''
-    Function to compite Celsius from Fahrenheit
+    Function to compute Celsius from Fahrenheit
     '''
-    temp_K = fahrenheit_to_kelvin(temperature_F)
-    temp_C = kelvin_to_celsius(temp_K)
-    return temp_C
+    K = fahrenheit_to_kelvin(F)
+    C = kelvin_to_celsius(K)
+    return C
     
-def fahrenheit_to_kelvin(a):
+def fahrenheit_to_kelvin(F):
     """
     Function to compute Fahrenheit from Kelvin
     """
-    kelvin = (a-32.0)*5/9 + 273.15
-    return kelvin
+    K = (F-32.0)*5/9 + 273.15
+    return K
