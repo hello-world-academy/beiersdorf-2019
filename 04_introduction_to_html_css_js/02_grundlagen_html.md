@@ -1,10 +1,10 @@
 # Grundlagen HTML
 
-HTML (Hypertext Markup Language) ist keine Programmiersprache im eigentlichen Sinn. Es handelt sich vielmehr um eine Auszeichnungssprache (_markup language_), welche die Struktur einer Webseite beschreibt. Der Grundbaustein von HTML ist das sogenannte _Element_. Es erlaubt Inhalte zu strukturieren und mit Attributen zu versehen.   
+HTML (Hypertext Markup Language) ist keine Programmiersprache im eigentlichen Sinne. Es handelt sich vielmehr um eine Auszeichnungssprache (_markup language_), welche die Struktur einer Webseite beschreibt. Der Grundbaustein von HTML ist das sogenannte _Element_. Es erlaubt, Inhalte zu strukturieren und mit Attributen zu versehen.   
 
 ## Elemente
 
-Ein Element kann u.a. Text, Daten, Bilder, etc. beinhalten. Typischerweise beginnt ein Element mit einem (eröffnenden) `<...>` (_tag_), enthält Attribute, umschließt Text und endet mit einem (schließenden) `</...>`.
+Ein Element kann u.a. Text, Daten, Bilder etc. beinhalten. Typischerweise beginnt ein Element mit einem (eröffnenden) `<...>` (_tag_), enthält Attribute, umschließt Text und endet mit einem (schließenden) `</...>`.
 
 Hier ein Beispiel für ein `p` (_paragraph_) Element: 
 
@@ -15,11 +15,11 @@ Hier ein Beispiel für ein `p` (_paragraph_) Element:
 - `'Hello world!'` Text und der
 - `</p>` schließender _tag_
 
-Es gibt auch Elemente die keinen Inhalt haben (_empty elements_):
+Es gibt auch Elemente, die keinen Inhalt haben (_empty elements_):
 
 `<img src="meinpfad/bild.png">`
 
-Dieses Element enthält ein Attribute aber keinen schließenden _tag_ (`</img>`) und auch keinen Inhalt.
+Dieses Element enthält ein Attribut aber keinen schließenden _tag_ (`</img>`) und auch keinen Inhalt.
 
 ### Texte
 
@@ -85,7 +85,7 @@ Das `<img>` Element fügt Bilddateien in das Dokument ein. Das `src` (_source_) 
 ***
 
 ## Übung 2
-> __Öffnen Sie das HTML Dokument `04_introduction_to_html_css_js/html/02-html-uebung.html` mit einem Texteditor Ihrer Wahl und versuchen die Änderungen zur vorhergehende Version innerlich nachzuvollziehen.__
+> __Öffnen Sie das HTML Dokument `04_introduction_to_html_css_js/html/02-html-uebung.html` mit einem Texteditor Ihrer Wahl und versuchen Sie die Änderungen zur vorhergehende Version innerlich nachzuvollziehen.__
 > * Das Element `<ul></ul>` steht fur eine ungeordnete Liste (_unordered list_)
 > * Das Element `<li></li>` steht für einen Listeneintrag (_list_)
 > * Das Element `<a></a>` steht für einen Link (_anchor_)

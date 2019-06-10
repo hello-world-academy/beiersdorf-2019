@@ -1,10 +1,10 @@
 # Grundlagen JS
 
-[JavaScript (JS)](https://de.wikipedia.org/wiki/JavaScript) ist ein Programmiersprache die Webseiten Dynamik, Interaktivität und Responsivität hinzufügt.
+[JavaScript (JS)](https://de.wikipedia.org/wiki/JavaScript) ist ein Programmiersprache, die Webseiten Dynamik, Interaktivität und Responsivität hinzufügt.
 
-JavaScript is sehr vielfältig und Entwickler können auf eine Vielzahl von Tools und Erweiterungen zurückgreifen und somit die Kernfunktionalität von JS deutlich erweitern.
+JavaScript ist sehr vielfältig. Entwickler können auf eine Vielzahl von Tools und Erweiterungen zurückgreifen und somit die Kernfunktionalität von JS deutlich erweitern.
 
-Es ist grundsätzlich möglich JS-Code direkt in das HTML Dokument zu schreiben, aber auch hier, ähnlich wie für das Einfügen von CSS empfiehlt es sich, lediglich eine Referenz auf einen JS-Datei im HTML zu hinterlegen (kurz vor dem _tag_ `</body>`). 
+Es ist grundsätzlich möglich, JS-Code direkt in das HTML Dokument zu schreiben. Aber auch hier, ähnlich wie für das Einfügen von CSS, empfiehlt es sich, lediglich eine Referenz auf einen JS-Datei im HTML zu hinterlegen (kurz vor dem _tag_ `</body>`). 
 
 `<script src="pfad-zu-der-datei/name-js-script.js"></script>`
 
@@ -16,7 +16,7 @@ Es ist grundsätzlich möglich JS-Code direkt in das HTML Dokument zu schreiben,
 > * Öffnen Sie das HTML Dokument `04_introduction_to_html_css_js/html/04-js-uebung.html` mit einem Texteditor Ihrer Wahl.
 > * Öffnen Sie das HTML Dokument `04_introduction_to_html_css_js/html/04-js-uebung.html` mit einem Browser Ihrer Wahl.
 > * Öffnen Sie das JS-Script `04_introduction_to_html_css_js/html//scripts/header_changer.js` mit einem Texteditor Ihrer Wahl.
-> Fügen Sie die folgende zwei Zeilen JS-Code in die Datei `header_changer.js` ein uns speichern diese.
+> Fügen Sie die folgende zwei Zeilen JS-Code in die Datei `header_changer.js` ein und speichern Sie diese.
 >```
 >var myHeading = document.querySelector('h1');
 >myHeading.textContent = 'Hello World Academy';

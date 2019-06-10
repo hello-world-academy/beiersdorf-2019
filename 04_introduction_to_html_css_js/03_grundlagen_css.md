@@ -1,6 +1,6 @@
 # Grundlagen CSS
 
-Wie HTML ist auch Cascading Style Sheets (CSS) keine Programmiersprache aber eine _Stylesheet_ Sprache. Mit ihr kann man einzelne Elemente eines HTML Dokumentes formatieren. Um alle Absatzelemente (`<p>`) in einem HTML Dokument in roter Textfarbe darzustellen schreibt man in CSS Folgendes:
+Wie HTML ist auch Cascading Style Sheets (CSS) keine Programmiersprache aber eine _Stylesheet_ Sprache. Mit dieser können einzelne Elemente eines HTML Dokumentes formatiert werden. Um alle Absatzelemente (`<p>`) in einem HTML Dokument in roter Textfarbe darzustellen, schreiben Sie in CSS Folgendes:
 
 ```
 p {
@@ -8,7 +8,7 @@ p {
 }
 ```
 
-In der Regel erstelle man eine eigene CSS Datei (z.B. `style.css`) und referenziert diese innerhalb des `<head>` _tags_ im HTML Dokument.
+In der Regel erstellen Sie eine eigene CSS Datei (z.B. `style.css`) und referenzieren diese innerhalb des `<head>` _tags_ im HTML Dokument.
 
 `<link href="styles/style.css" rel="stylesheet" type="text/css">`
 
@@ -16,7 +16,7 @@ In der Regel erstelle man eine eigene CSS Datei (z.B. `style.css`) und referenzi
 ## Anatomie von CSS 
 
 Die Formatierung durch CSS basiert auf Regeln. Der Name des zu formatierenden HTML Elementes (_Selector_) steht immer am Anfang der Regel (z.B. `p`).
-Eine Regel wie `color: red;` führt dazu das selektierte Element in der Farbe Rot dargestellt wird. Die korrekte Syntax ist herbei sehr wichtig:
+Eine Regel wie `color: red;` stellt das selektierte Element in der Farbe Rot dar. Die korrekte Syntax ist hier sehr wichtig:
 
 * Jede Regel wird durch die geschwungenen Klammern umschlossen `{}`.
 * Der Doppelpunkt `:` trennt die Eigenschaft (z.B. `color`) vom Wert (z.B. `red`).
@@ -30,7 +30,7 @@ p {
 }
 ```
 
-Es bestehen verschiedene Möglichkeiten einzelne Elemente oder Gruppen von Elementen anzusprechen:
+Es bestehen verschiedene Möglichkeiten, einzelne Elemente oder Gruppen von Elementen anzusprechen:
 
 ```
 p, li, h1 {
@@ -38,7 +38,7 @@ p, li, h1 {
 }
 ```
 
-Darüber hinaus kann man einzelne Elemente auch unterschiedlich ansprechen:
+Darüber hinaus können Sie einzelne Elemente auch unterschiedlich ansprechen:
 
 * _Name_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `p`
 * _ID_ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `#my-id`
@@ -46,18 +46,18 @@ Darüber hinaus kann man einzelne Elemente auch unterschiedlich ansprechen:
 * Attribute &nbsp;&nbsp;&nbsp; `img[src]`
 * Status &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `a:hover`
 
-Darüber hinaus gibt es noch viele weitere Möglichkeiten mit CSS einzelne Elemente anzusprechen ([siehe hier](https://www.w3schools.com/cssref/css_selectors.asp)). 
+Ferner gibt es noch viele, weitere Möglichkeiten mit CSS einzelne Elemente anzusprechen ([siehe hier](https://www.w3schools.com/cssref/css_selectors.asp)). 
 
 ### _Denken in Blöcken_
 
-Bei der Definition der CSS Regeln geht es sehr of darum Boxen zu formatieren (Größe, Farbe, Position, etc). Es kann helfen Elemente eines HTML Dokumets als Boxen zu denken die neben- und übereinander existieren können (_box model_). Mit diesem Modell vor Augen sind Eigenschaften wie `padding`, `border` und `margin` besser zu verstehen. 
+Bei der Definition der CSS Regeln geht es sehr oft um die Formatierung von Boxen (Größe, Farbe, Position etc). Es kann Ihnen helfen, Elemente eines HTML Dokumets als Boxen zu denken, die neben- und übereinander existieren können (_box model_). Mit diesem Modell vor Augen sind Eigenschaften wie `padding`, `border` und `margin` besser zu verstehen. 
 
 <img src='_img/box-model.png' width='100%'>
 
 ****
 ## Übung 3
 
-> __Öffnen Sie die CSS Datei `04_introduction_to_html_css_js/html/styles/style.css` mit einem Texteditor Ihrer Wahl und versuchen die Formatierungsregeln nachzuvollziehen.__
+> __Öffnen Sie die CSS Datei `04_introduction_to_html_css_js/html/styles/style.css` mit einem Texteditor Ihrer Wahl und versuchen Sie die Formatierungsregeln nachzuvollziehen.__
 
 ***
 ## Übung 4
