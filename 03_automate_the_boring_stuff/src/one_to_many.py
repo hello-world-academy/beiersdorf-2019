@@ -3,10 +3,12 @@ A commandline tool in Python to split a large tabular data file (.csv)
 into smaler chunks based on the unique values in a particular column 
 '''
 
-import pandas as pd
-from pathlib import Path
-import fire
+# import packages from the python standart library
 import os
+from pathlib import Path
+# import 3rd party packages, use pip or conda for installing
+import pandas as pd
+import fire
 
 class One2Many():
     '''
@@ -42,6 +44,9 @@ class One2Many():
         
     
     def extract_subsets(self, colname=None):
+        '''
+        Subset the dataset and save it to disk
+        '''
         if colname is None:
             print(f'Column name to split on is not set.')
             return
@@ -59,6 +64,9 @@ class One2Many():
             print(f'Saving file to {filepath_subset}\n')
 
     def one2many(self, filepath, colname):
+        '''
+        Main function
+        '''
         self.read_file(filepath=filepath)
         if self.data is not None:
             self.extract_subsets(colname=colname)
