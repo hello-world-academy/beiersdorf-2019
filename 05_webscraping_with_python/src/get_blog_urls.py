@@ -17,6 +17,6 @@ def get_blog_urls(base_url, blog_urls):
         articles = soup.find_all('article')
         for article in articles:
             hyper_link = article.find('a').get('href')
-            hyper_links.append(base_url + hyper_link)
+            hyper_links.append(base_url[:-1] + hyper_link)
     print(f'{len(set(hyper_links))} links to articles were found!\n')
     return list(set(hyper_links))
