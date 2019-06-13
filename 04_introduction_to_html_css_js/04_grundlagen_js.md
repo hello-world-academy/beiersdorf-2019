@@ -21,7 +21,7 @@ Es ist grundsätzlich möglich, JS-Code direkt in das HTML Dokument zu schreiben
 >var myHeading = document.querySelector('h1');
 >myHeading.textContent = 'Hello World Academy';
 >```
-> * Fügen Sie `<script src="/scripts/header_changer.js"></script>` dem HTML Dokument `04_introduction_to_html_css_js/html/04-js-uebung.html` hinzu und speichern Sie die Änderungen.
+> * Fügen Sie `<script src="scripts/header_changer.js"></script>` dem HTML Dokument `04_introduction_to_html_css_js/html/04-js-uebung.html` hinzu und speichern Sie die Änderungen.
 > * Aktualisieren Sie die den Browser.
 
 ### Was ist passiert?
