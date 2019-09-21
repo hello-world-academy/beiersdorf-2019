@@ -19,6 +19,6 @@ dependencies:
   - openpyxl
   - xlrd
 pip:
-  - install google_images_download
+  - google_images_download
 
 
