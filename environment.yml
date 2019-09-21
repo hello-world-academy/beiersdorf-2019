@@ -15,5 +15,10 @@ dependencies:
   - seaborn
   - holoviews
   - fire
+  - xlwt
+  - openpyxl
+  - xlrd
+pip:
+  - install google_images_download
 
 
