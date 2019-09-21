@@ -18,7 +18,8 @@ dependencies:
   - xlwt
   - openpyxl
   - xlrd
-pip:
-  - google_images_download
+  - pip
+  - pip:
+    - google_images_download
 
 
