@@ -1,6 +1,6 @@
 def image_process(img):
     '''
-    Function to apply a series of image processing and enhancement steps on a image
+    Function to apply a series of image processing and enhancement steps on an image
     : img: a PIL image object
     : return: a copy of a processed/enhanced PIL image object
     '''
@@ -12,4 +12,4 @@ def image_process(img):
     # gray scale
     enhancer = ImageEnhance.Color(img)
     img = enhancer.enhance(0)
-    return img.copy() # retruns a copy
+    return img.copy() # returns a copy

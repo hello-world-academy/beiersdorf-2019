@@ -1,6 +1,6 @@
 def image_crop(img, ratio=0.5):
     '''
-    Function crop a PIL image opject by a given ration 0 to 1.
+    Function crop a PIL image object by a given ratio from 0 to 1.
     : img: PIL image object
     : ratio: float between 0 and 1
     : returns: a cropped PIL image object
