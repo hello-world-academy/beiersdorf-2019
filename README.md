@@ -8,7 +8,7 @@
 
 ***
 
-Welcome on the workshop series _Coding for Non-Coder_. This repository provides learning materials and exercises.
+Welcome to the workshop series _Coding for Non-Coder_. This repository provides learning materials and exercises. Feel free to download the materials.
 
 In order to make use of the materials we recommend to use the [_conda_](https://conda.io/docs/) _package manager_. After installing conda you may install Python and all relevant additional packages by typing 
 
