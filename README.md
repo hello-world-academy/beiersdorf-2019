@@ -2,7 +2,7 @@
 
 > Client: [Beiersdorf AG](https://www.beiersdorf.de/)   
 > Place: Hamburg, Germany   
-> Date:  2019-09-16 and 2019-06-13   
+> Date:  2019-09-16 and 2019-06-25   
 > Time: 9 AM to 5 PM  
 > Trainer: Annemieke Frank and Joachim Krois
 
