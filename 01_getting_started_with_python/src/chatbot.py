@@ -3,7 +3,7 @@ print("Hi, my name is Vincent.")
 time.sleep(1)
 print("What´s your name?")
 user = input()
-if user.lower == "joachim":
+if user.lower() == "joachim":
     print("Good morning my creator!")
     print('')
 elif user.lower() == 'mieke':
@@ -13,7 +13,7 @@ elif user.lower() == 'mieke':
     answer = input()
     if answer.lower() == 'yes':
         print('Great, a strong team!')
-    elif answer.lower == 'no':
+    elif answer.lower() == 'no':
         print('OK, if you see him make sure he knows that we miss him.')
     else:
         print("Well, did not get that, but thats's fine. See you buddy!")
